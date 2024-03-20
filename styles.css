@@ -35,6 +35,18 @@ img {
     background-color: #00ff00; /* Cambia el color de fondo a verde */
 }
 
+header {
+    background-color: #1c7ccc !important; /* Color de fondo del encabezado */
+}
+
+.navbar-brand {
+    font-size: 1.5em !important; /* Tamaño de la fuente del logotipo */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em; /* Tamaño de la fuente de los elementos del menú */
+}
+
 .navbar-toggler {
     border: none !important; /* Eliminamos el borde del navbar-toggler */
     outline: none !important; /* Quitamos el contorno al recibir foco */
