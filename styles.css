@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+:root {
+    --azul-oscuro: #002D72;
+    --rojo: #D73925;
+    --verde: #0C8346;
+    --gris-claro: #F0F0F0;
+    --blanco: #FFFFFF;
+    --azul-claro: #0072CE;
+    --gris-medio: #E6E6E6;
+    --gris: #CCCCCC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 4px;
+}
+/* Estilos personalizados */
+
+.boton-principal {
+    background-color: #ff0000; /* Cambia el color de fondo a rojo */
+}
+
+.boton-secundario {
+    background-color: #00ff00; /* Cambia el color de fondo a verde */
+}
+
+.navbar-toggler {
+    border: none !important; /* Eliminamos el borde del navbar-toggler */
+    outline: none !important; /* Quitamos el contorno al recibir foco */
+}
+
+.portada {
+    padding-top: 60px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: 0 -15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+.whatsapp-icon a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    transition: transform 0.3s ease-in-out;
+    font-size: 2em;
+}
+
+.whatsapp-icon a:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+}
+
+
