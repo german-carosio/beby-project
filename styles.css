@@ -65,6 +65,17 @@ header {
     color: white;
 }
 
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumento de tamaño al hacer hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombreado más pronunciado al hacer hover */
+}
+
+
 
 .whatsapp-icon {
     position: fixed;
